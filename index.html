@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanye West quotes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+    <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+  </video>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <img src="https://pyxis.nymag.com/v1/imgs/043/bfa/03efb3e860202bd7d09e59def4f3f96713-yetucker.rsquare.w330.png">
+        <h3>Kanye West</h3>
+        <div class="row mt-5 border border-2 bg-transparent quote"></div>
+        <div class="quotebtn">
+          <button class="btn btn-primary mt-5">Get Quote</button>
+      </div>
+      </div>
+    </div>
+      
+  </div>
+  
+    <script src="script.js">
+      VanillaTilt.init(document.querySelectorAll(".card"),{
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 1
+  })
+    </script>
+</body>
+</html>
