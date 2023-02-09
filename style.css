@@ -33,6 +33,14 @@ img{
     flex-wrap: wrap;
     z-index: 1;
   }
+
+ p {
+        font-size: 75px;  
+    -webkit-text-stroke-width: 2px;  
+    -webkit-text-stroke-color: red;  
+    -webkit-text-fill-color: yellow;  
+    text-shadow: 5px 5px 6px gray;  
+    }
   
   .container .card{
     position: relative;
